@@ -1,0 +1,39 @@
+# -----------------------
+# Python
+# -----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+
+# -----------------------
+# Virtual environments
+# -----------------------
+gen/
+venv/
+.env/
+.venv/
+
+# -----------------------
+# Environment & Secrets
+# -----------------------
+.env
+*.json   # Ignore all json files (important for your Google creds)
+gen2.json
+genai.json
+
+# -----------------------
+# IDE / Editor files
+# -----------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -----------------------
+# OS files
+# -----------------------
+.DS_Store
+Thumbs.db
